@@ -1,14 +1,26 @@
 <template>
-    <div class="row p-3 bg-primary text-white">
-        <div class="col-lg-1">
-        <img src="~/assest/img/LOGO-SMK4 (2).png" alt="logo SMKN4">
+    <div class="row p-3 bg_primary text-white">
+      <div class="col-lg-1">
+        <img  src="~/assets/LOGO-SMK4.png" alt="logo SMKN4">
+      </div>
+  
+      <div class="col-lg-11">
+        <h1>PERPUSTAKAAN</h1>
+        <h1>DIGITAL</h1>
+        <address>
+          <p>SMKN4 TASIKMALAYA</p>
+          
+        </address>
+      </div>
     </div>
-    <div class="col-lg-11">
-    <h1>perpus digital</h1>
-    <address>
-        SMKN 4 TASIKMALAYA
-        Jl.Depok, sukamenak, Purbaratu
-    </address>
-    </div>
-    </div>
-</template>
+  </template>
+  
+  <style scoped>
+  .row{
+    background-color: #75C5FF;
+  }
+  img {
+    height: 130px;
+    width: 115px;
+  }
+  </style>
